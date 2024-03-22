@@ -1,3 +1,7 @@
 export default {
-  meals: ["Salamon"],
+  searchedMeals: [],
+  currentMeal: {},
+  searchedByLetter: [],
+  searchedMealsByIngredient: [],
+  setIngredient: {},
 };

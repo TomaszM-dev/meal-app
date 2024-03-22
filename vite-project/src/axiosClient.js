@@ -1,3 +1,7 @@
-const instance = axios.create({
-  baseURL: "www.themealdb.com/api/json/v1/1",
+import axios from "axios";
+
+const axiosClient = axios.create({
+  baseURL: import.meta.env.VITE_BASE_URL,
 });
+
+export default axiosClient;
